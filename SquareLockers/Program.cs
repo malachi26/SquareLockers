@@ -32,5 +32,16 @@ namespace SquareLockers
             }
 
         }
+
+        public static void LongLockers(int numberOfLockers)
+        {
+            //List<bool> lockers = new List<bool>();
+            Dictionary<int,bool> lockers = new Dictionary<int,bool>();
+            for (int i = 1; i <= numberOfLockers; i++)
+            {
+                lockers.Add(i, true);
+            }
+
+        }
     }
 }
